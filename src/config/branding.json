@@ -1,22 +1,22 @@
 {
   "default": {
-    "siteName": "Council for Mind and Behavioural Studies",
-    "tagline": "Advancing Psychology, Behavioural Science & Human Potential",
+    "siteName": "Tutorx Learning Academy",
+    "tagline": "Strong Foundations. Smarter Learning.",
 
-    "primaryColor": "#1e3a8a",
+    "primaryColor": "#0ea5e9",
     "theme": "formalLight",
 
     "logo": "/logo.png",
-    "students": "500+",
+    "students": "300+",
 
     "colors": {
-      "primary": "#1e3a8a",
-      "accent": "#ffff"
+      "primary": "#0ea5e9",
+      "accent": "#22c55e"
     },
 
     "hero": {
-      "title": "Empowering Minds Through Psychology & Behavioural Science",
-      "subtitle": "Enhance your understanding of human behaviour, emotional intelligence, and professional skills through expert-led programs and research-driven learning.",
+      "title": "Personalized Learning for School Students (1–10)",
+      "subtitle": "Build strong academic foundations with expert guidance in languages and core subjects across Kerala & CBSE syllabi.",
       "image": "/hero.png",
 
       "bunnyVideoId": "",
@@ -24,90 +24,125 @@
     },
 
     "preview": {
-      "badge": "Professional Council",
-      "title": "A platform for psychological learning & research",
-      "highlight": "Education • Research • Professional Excellence",
-      "description": "The Council for Mind and Behavioural Studies (CMBS) is an autonomous professional council established with the vision of promoting education, research, and professional excellence in the fields of psychology, behavioural science, cognitive development, and human potential.",
+      "badge": "Learning Academy",
+      "title": "Focused tuition for school success",
+      "highlight": "Basics • Advanced • School Syllabus",
+      "description": "Tutorx Learning Academy provides structured and personalized tuition for students from Class 1 to 10. We focus on building strong fundamentals, improving language skills, and helping students excel in both Kerala and CBSE syllabi.",
 
       "bunnyVideoId": "",
       "libraryId": "",
-      "poster": "/cmbs-preview.jpg",
+      "poster": "/tutorx-preview.jpg",
 
       "videoUrl": "",
 
       "perks": [
-        { "value": "CERTIFIED", "label": "Industry-Relevant Programs" },
-        { "value": "RESEARCH", "label": "Practical & Evidence-Based Learning" }
+        { "value": "FOUNDATION", "label": "Strong Basics in Core Subjects" },
+        { "value": "GUIDANCE", "label": "Personalized Academic Support" }
       ]
     },
 
     "pricingInfo": {
       "title": "Program Information",
       "items": [
-        "Flexible course structures available",
-        "Certificate & Diploma programs offered",
-        "Affordable pricing based on program level",
-        "No hidden charges",
-        "Online & hybrid learning options"
+        "Classes for students from 1 to 10",
+        "Separate focus on basics & advanced learning",
+        "Affordable fee structure",
+        "Small batch learning",
+        "Regular assessments and progress tracking"
       ]
     },
 
     "schedule": {
       "title": "Learning Format",
       "details": [
-        "Live & recorded sessions",
-        "Flexible learning schedules",
-        "Weekend & weekday batches",
-        "Workshops, seminars & webinars",
-        "Internship opportunities available"
+        "Online / Offline classes (based on availability)",
+        "Flexible batch timings",
+        "Small group sessions",
+        "Regular revision & practice sessions",
+        "Doubt clearing support"
       ]
     },
 
     "features": [
-      "Certificate & diploma programs in psychology",
-      "Behavioural science & emotional intelligence training",
-      "Expert-led webinars & workshops",
-      "Research and internship opportunities",
-      "Professional skill development programs",
-      "Focus on mental wellness and behavioural competence"
+      "Strong foundation classes in core subjects",
+      "Advanced English & Hindi programs",
+      "Kerala & CBSE syllabus coverage",
+      "Individual attention in small batches",
+      "Language skill development",
+      "Student-friendly teaching approach"
     ],
+
+    "courses": {
+      "categories": [
+        {
+          "title": "Basic Foundation (Primary)",
+          "items": [
+            "English",
+            "Malayalam",
+            "Mathematics",
+            "Hindi",
+            "Arabic"
+          ]
+        },
+        {
+          "title": "Elite Programs",
+          "items": [
+            "Elite English (Advanced English)",
+            "Elite Hindi (Advanced Hindi)"
+          ]
+        },
+        {
+          "title": "Kerala Syllabus",
+          "items": [
+            "Class 5–10 (English Medium)",
+            "Class 5–10 (Malayalam Medium)"
+          ]
+        },
+        {
+          "title": "CBSE Syllabus",
+          "items": [
+            "Class 1–10 All Subjects"
+          ]
+        }
+      ]
+    },
 
     "team": [
       {
-        "name": "CMBS Academic Panel",
-        "role": "Experts & Researchers",
-        "qualification": "Psychology, Behavioural Science & Education Professionals",
-        "image": "/hero.jpg"
+        "name": "Tutorx Faculty",
+        "role": "Experienced Teachers",
+        "qualification": "Subject Experts in School Education",
+        "image": "/team.jpg"
       }
     ],
 
     "reviews": [
       {
-        "name": "Arjun Nair",
+        "name": "Akhil Raj",
         "role": "Student",
         "rating": 5,
-        "text": "The programs are very insightful and practical. Helped me understand human behaviour deeply."
+        "text": "Very helpful classes. My basics improved a lot."
       },
       {
-        "name": "Shifa Rahman",
-        "role": "Professional",
+        "name": "Fathima Noor",
+        "role": "Parent",
         "rating": 5,
-        "text": "Great platform for learning psychology and improving emotional intelligence."
+        "text": "Teachers give good attention to each student. Highly recommended."
       },
       {
-        "name": "Rahul Das",
+        "name": "Sreya K",
         "role": "Student",
         "rating": 4,
-        "text": "Well-structured courses with good academic and practical balance."
+        "text": "Good coaching for both school syllabus and languages."
       }
     ],
 
     "contact": {
-      "email": "iechelp2@gmail.com",
-      "phone": " +91 8606 999888",
-      "whatsapp": "+918606999888",
-      "address": "India",
-      "supportName": "CMBS Support Team",
+      "email": "tutorxacademy@gmail.com",
+      "phone": "+91 96455 46157",
+      "whatsapp": "+919645546157",
+      "address": "Kerala, India",
+      "supportName": "Tutorx Support Team",
       "image": "/support.jpg"
     }
   }
