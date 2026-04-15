@@ -1,155 +1,112 @@
 import React from "react";
 
-const AboutUs = () => {
+export default function About() {
   return (
-    <div className="bg-white text-gray-800">
+    <div className="bg-white text-slate-900">
 
-      {/* HERO SECTION */}
-      <div className="relative h-[60vh] flex items-center justify-center text-center">
-        <img
-          src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          
-          className="absolute w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black/50"></div>
-
-        <div className="relative z-10 text-white px-6">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            About CMBS
-          </h1>
-          <p className="max-w-2xl mx-auto text-lg opacity-90">
-            Advancing the science of mind, behaviour, and human potential.
-          </p>
-        </div>
-      </div>
+      {/* HERO */}
+      <section className="bg-slate-900 text-white py-20 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          TutorX Learning Academy
+        </h1>
+        <p className="text-lg opacity-90 max-w-2xl mx-auto">
+          Strong foundations for students from Class 1 to 10 with focused guidance, 
+          structured learning, and personalized attention.
+        </p>
+      </section>
 
       <div className="max-w-6xl mx-auto px-6 py-16">
 
-        {/* INTRO SECTION */}
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <img
-            src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21"
-            alt="counselling"
-            className="rounded-2xl shadow-lg"
-          />
-
-          <div>
-            <h2 className="text-3xl font-bold mb-4">
-              Council for Mind and Behavioural Studies
-            </h2>
-            <p className="mb-4">
-              CMBS is an autonomous professional council dedicated to promoting
-              education, research, and excellence in psychology and behavioural sciences.
-            </p>
-            <p>
-              We bridge academic knowledge with real-world application through
-              structured programs, research, and professional training.
-            </p>
-          </div>
-        </div>
-
-        {/* OBJECTIVES */}
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold text-center mb-10">
-            Our Objectives
+        {/* INTRO */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-3xl font-bold mb-4">
+            About TutorX
           </h2>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              "Promote psychology & behavioural education",
-              "Encourage research & innovation",
-              "Provide professional training",
-              "Organize seminars & workshops",
-              "Offer certifications & diplomas",
-              "Support mental wellness awareness",
-            ].map((item, i) => (
-              <div
-                key={i}
-                className="p-6 rounded-xl border hover:shadow-lg transition"
-              >
-                <p className="font-medium">{item}</p>
-              </div>
-            ))}
-          </div>
+          <p className="text-slate-600 leading-relaxed">
+            TutorX Learning Academy is dedicated to building strong academic foundations 
+            for school students. We provide structured tuition for multiple subjects and 
+            syllabi, ensuring clarity, confidence, and consistent academic improvement.
+          </p>
         </div>
 
-        {/* PROGRAMS */}
-        <div className="mt-20 grid md:grid-cols-2 gap-10 items-center">
-          <div>
-            <h2 className="text-3xl font-bold mb-4">Our Programs</h2>
-            <ul className="space-y-3">
-              <li>• Certificate Courses</li>
-              <li>• Diploma & Advanced Programs</li>
-              <li>• Webinars & Seminars</li>
-              <li>• Research Initiatives</li>
-              <li>• Internship Programs</li>
+        {/* COURSES GRID */}
+        <div className="grid md:grid-cols-2 gap-8">
+
+          {/* BASIC */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-blue-800">
+              Foundation Classes (Basics)
+            </h3>
+            <p className="text-sm text-slate-600 mb-4">
+              Strong fundamentals for early learners.
+            </p>
+            <ul className="space-y-2 text-slate-700">
+              <li>• English</li>
+              <li>• Malayalam</li>
+              <li>• Mathematics</li>
+              <li>• Hindi</li>
+              <li>• Arabic</li>
             </ul>
           </div>
 
-          <img
-            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
-            alt="learning"
-            className="rounded-2xl shadow-lg"
-          />
-        </div>
-
-        {/* VALUES */}
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold text-center mb-10">
-            Our Core Values
-          </h2>
-
-          <div className="grid md:grid-cols-4 gap-6 text-center">
-            {[
-              "Integrity",
-              "Academic Excellence",
-              "Innovation",
-              "Social Responsibility",
-            ].map((val, i) => (
-              <div
-                key={i}
-                className="p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition"
-              >
-                <h3 className="font-semibold">{val}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* QUALITY */}
-        <div className="mt-20 grid md:grid-cols-2 gap-10 items-center">
-          <img
-            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40"
-            alt="research"
-            className="rounded-2xl shadow-lg"
-          />
-
-          <div>
-            <h2 className="text-3xl font-bold mb-4">Quality Policy</h2>
-            <p className="mb-3">
-              We ensure academic credibility, continuous improvement, and
-              evidence-based learning in all programs.
+          {/* ELITE */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-blue-800">
+              Elite Programs
+            </h3>
+            <p className="text-sm text-slate-600 mb-4">
+              Advanced language mastery programs.
             </p>
-            <p>
-              Our focus is delivering high-quality education with real-world
-              relevance and professional impact.
-            </p>
+            <ul className="space-y-2 text-slate-700">
+              <li>• Elite English (Advanced English)</li>
+              <li>• Elite Hindi (Advanced Hindi)</li>
+            </ul>
           </div>
+
+          {/* KERALA */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-blue-800">
+              Kerala Syllabus
+            </h3>
+            <p className="text-sm text-slate-600 mb-4">
+              Comprehensive support for state syllabus students.
+            </p>
+            <ul className="space-y-2 text-slate-700">
+              <li>• Classes 5 – 10</li>
+              <li>• English Medium</li>
+              <li>• Malayalam Medium</li>
+            </ul>
+          </div>
+
+          {/* CBSE */}
+          <div className="border rounded-xl p-6 shadow-sm">
+            <h3 className="text-xl font-bold mb-3 text-blue-800">
+              CBSE Syllabus
+            </h3>
+            <p className="text-sm text-slate-600 mb-4">
+              Full academic support across all subjects.
+            </p>
+            <ul className="space-y-2 text-slate-700">
+              <li>• Classes 1 – 10</li>
+              <li>• All Subjects Covered</li>
+            </ul>
+          </div>
+
         </div>
 
-        {/* COMMITMENT */}
+        {/* WHY CHOOSE */}
         <div className="mt-20 text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Our Commitment</h2>
-          <p>
-            We believe understanding the human mind is essential for a better society.
-            Through education and research, we develop emotionally intelligent,
-            self-aware individuals who create meaningful impact.
+          <h2 className="text-3xl font-bold mb-4">
+            Why Choose TutorX?
+          </h2>
+          <p className="text-slate-600 leading-relaxed">
+            We focus on concept clarity, regular practice, and individual attention 
+            to help students excel academically. Our structured approach ensures 
+            steady improvement and confidence in every subject.
           </p>
         </div>
 
       </div>
     </div>
   );
-};
-
-export default AboutUs;
+}

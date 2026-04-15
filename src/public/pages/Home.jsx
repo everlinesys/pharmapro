@@ -17,7 +17,7 @@ export default function Home() {
       <PreviewVideo />
 
       <FeaturedCoursesStrip />
-      <MissionVision />
+      {/* <MissionVision /> */}
       <AboutUs />
       <Testimonials />
       <Enroll />

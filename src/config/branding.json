@@ -3,19 +3,19 @@
     "siteName": "Tutorx Learning Academy",
     "tagline": "Strong Foundations. Smarter Learning.",
 
-    "primaryColor": "#0ea5e9",
-    "theme": "formalLight",
+    "primaryColor": "#6366f1",
+    "theme": "darkModern",
 
     "logo": "/logo.png",
     "students": "300+",
 
     "colors": {
-      "primary": "#0ea5e9",
-      "accent": "#22c55e"
+      "primary": "#c0c2cc",
+      "accent": "#3b4786"
     },
 
     "hero": {
-      "title": "Personalized Learning for School Students (1–10)",
+      "title": "Personalized Learning for School Students",
       "subtitle": "Build strong academic foundations with expert guidance in languages and core subjects across Kerala & CBSE syllabi.",
       "image": "/hero.png",
 
