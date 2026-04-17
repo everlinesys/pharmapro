@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="bg-white text-slate-900">
+    <div className="bg-white text-slate-900 min-w-[100vw] md:px-16 lg:px-16">
 
       {/* HERO */}
       <section className="bg-slate-900 text-white py-20 text-center">
