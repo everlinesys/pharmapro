@@ -23,6 +23,7 @@ export default function Login() {
       localStorage.setItem("token", data.token);
 
       if (data.user.role === "ADMIN") navigate("/admin");
+      else if (data.user.role === "TEACHER") navigate("/teacher");
       else navigate("/student");
     } catch (err) {
       setPopup(true);
