@@ -20,7 +20,7 @@ export default function PublicHeader() {
             <img
               src={brand.logo}
               alt={brand.siteName}
-              className="h-30 w-auto object-contain"
+              className="h-15 w-auto object-contain"
             />
           ) : (
             <div className=" h-10 w-10 bg-gray-200 rounded-lg flex items-center justify-center text-sm font-bold">

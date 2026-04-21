@@ -97,7 +97,7 @@ export default function Hero() {
             <a
               href="#courses"
               className={`group inline-flex items-center justify-center px-8 py-4 font-black text-sm tracking-wide transition-all duration-300 active:scale-95 ${brand.theme.button.primary} ${brand.theme.shape?.radius || ""}`}
-              style={{ background: brand.colors.primary, color: brand.colors.accent }}
+              style={{ background: brand.colors.primary,  color: "white" }}
             >
               <span className="flex items-center gap-2" >
                 Browse Courses
@@ -122,7 +122,7 @@ export default function Hero() {
                 </div>
               ))} */}
 
-              {[1, 2, 3, 4].map((num, i) => (
+              {/* {[1, 2, 3, 4].map((num, i) => (
                 <div
                   key={i}
                   className="inline-flex h-8 w-8 rounded-full border border-black/20 items-center justify-center overflow-hidden"
@@ -136,7 +136,7 @@ export default function Hero() {
                     className="h-full w-full object-cover"
                   />
                 </div>
-              ))}
+              ))} */}
 
               <div className="pl-5 pt-3 text-xs font-bold opacity-70 uppercase tracking-tighter">
                 {brand.students} Students
@@ -225,7 +225,7 @@ export default function Hero() {
           <button
             onClick={() => setOpen(!open)}
             className="w-18 h-18 rounded-full flex items-center justify-center text-white shadow-xl"
-            style={{ background: "rgb(5 150 105)", borderRadius: "40%" }}
+            style={{ background: "rgb(5 150 105)", color: "white", borderRadius: "40%" }}
           >
             <MdWhatsapp size={28} />
           </button>

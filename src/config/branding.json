@@ -3,14 +3,14 @@
     "siteName": "Tutorx Learning Academy",
     "tagline": "Strong Foundations. Smarter Learning.",
 
-    "primaryColor": "#6366f1",
+    "primaryColor": "#e3ba00",
     "theme": "schoolAcademic",
 
     "logo": "/logo.png",
     "students": "300+",
 
     "colors": {
-      "primary": "#b2ebff",
+      "primary": "#2796e1",
       "accent": "#3b4786"
     },
 
@@ -31,7 +31,7 @@
 
       "bunnyVideoId": "",
       "libraryId": "",
-      "poster": "/tutorx-preview.jpg",
+      "poster": "/preview.webp",
 
       "videoUrl": "",
 
