@@ -86,7 +86,7 @@ export default function Dashboard() {
     return now > new Date(end);
   }
   return (
-    <div className="space-y-10 p-4 md:p-0">
+    <div className="space-y-10 p-4 md:p-0  overflow-x-auto">
 
       {/* ===== HERO HEADER ===== */}
       <div

@@ -15,12 +15,15 @@ export default function TeacherDashboard() {
 
   async function load() {
     try {
-      const [c, live] = await Promise.all([
-        api.get("/courses"),
-        api.get("/live-classes"),
+      const [c, live, students] = await Promise.all([
+        api.get("/teacher/dashboard/courses"),
+        api.get("/teacher/dashboard/lives"),
+        api.get("/teacher/dashboard/students"),
       ]);
+
       setCourses(c.data || []);
       setLiveClasses(live.data || []);
+      // we’ll use students later
     } catch (err) {
       console.error(err);
     }
@@ -181,13 +184,12 @@ function LiveCard({ lc, type, now }) {
 
   return (
     <div
-      className={`bg-white border rounded-2xl p-5 shadow-sm space-y-3 ${
-        type === "live"
+      className={`bg-white border rounded-2xl p-5 shadow-sm space-y-3 ${type === "live"
           ? "border-red-300"
           : type === "upcoming"
-          ? "border-indigo-300"
-          : "opacity-60"
-      }`}
+            ? "border-indigo-300"
+            : "opacity-60"
+        }`}
     >
       <p className="text-xs text-slate-400">
         {lc.course?.title || "Course"}

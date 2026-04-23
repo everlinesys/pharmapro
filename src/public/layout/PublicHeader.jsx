@@ -87,6 +87,14 @@ export default function PublicHeader() {
               Admin Panel
             </Link>
           )}
+          {user?.role === "TEACHER" && (
+            <Link
+              to="/teacher"
+              className={`${theme.button.secondary} px-4 py-2 ${theme.shape.buttonRadius}`}
+            >
+              Teacher Dashboard
+            </Link>
+          )}
         </div>
 
       </div>
