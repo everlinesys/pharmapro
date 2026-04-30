@@ -1,128 +1,140 @@
 import React from "react";
-import { Instagram, MessageCircle, BookOpen, Star, GraduationCap, CheckCircle2 } from "lucide-react";
+import { Instagram, MessageCircle, Briefcase, Settings, Award, CheckCircle2 } from "lucide-react";
 import { MdWhatsapp } from "react-icons/md";
 
 export default function About() {
-  const instagramUrl = "https://instagram.com/tutorx.learning.academy/";
-  const whatsappUrl = "https://wa.me/9497340940";
+  const whatsappUrl = "https://wa.me/9895948492";
 
   return (
-    <div className="bg-slate-50 text-slate-900 min-h-screen font-sans py-0 my-0">
+    <div className="bg-slate-50 text-slate-900 min-h-screen font-sans">
       
       {/* HERO SECTION */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white py-24 px-6 overflow-hidden  px-5 md:px-16">
-        <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
-          <div className="absolute top-10 left-10 w-64 h-64 bg-blue-500 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-64 h-64 bg-indigo-500 rounded-full blur-3xl"></div>
-        </div>
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white py-24 px-6 overflow-hidden md:px-16">
         
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium tracking-wider uppercase bg-blue-500/20 border border-blue-400/30 rounded-full">
-            Empowering Next-Gen Learners
+          <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium uppercase bg-orange-500/20 border border-orange-400/30 rounded-full">
+            MEP Engineering Academy
           </span>
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
-            TutorX <span className="text-blue-400">Learning Academy</span>
+
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-6">
+            Adapts <span className="text-orange-400">Academy</span>
           </h1>
+
           <p className="text-lg md:text-xl opacity-80 max-w-2xl mx-auto leading-relaxed">
-            Building unbreakable academic foundations for Class 1 to 10 with 
-            personalized mentorship and a future-ready curriculum.
+            Industry-focused training in Mechanical, Electrical, and Plumbing (MEP) systems 
+            designed to build real-world engineering skills and job-ready professionals.
           </p>
-          
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a href={whatsappUrl} className="flex items-center gap-2 bg-green-600 hover:bg-green-700 transition-all px-8 py-3 rounded-full font-bold shadow-lg shadow-green-900/20">
+
+          <div className="mt-10 flex justify-center">
+            <a href={whatsappUrl} className="flex items-center gap-2 bg-green-600 hover:bg-green-700 px-8 py-3 rounded-full font-bold shadow-lg">
               <MessageCircle size={20} /> Enroll Now
-            </a>
-            <a href={instagramUrl} className="flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md transition-all px-8 py-3 rounded-full font-bold border border-white/10">
-              <Instagram size={20} /> Follow Updates
             </a>
           </div>
         </div>
       </section>
 
-      <div className="max-w-7xl mx-auto px-6 py-24  px-5 md:px-16">
+      <div className="max-w-7xl mx-auto px-6 py-24 md:px-16">
         
         {/* ABOUT SECTION */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-32">
+        <div className="grid lg:grid-cols-2 gap-12 items-center mb-28">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Why <span className="text-blue-600">TutorX</span> Stands Out
+              Why <span className="text-orange-500">Adapts Academy</span>?
             </h2>
+
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              We don't just teach; we ignite curiosity. At TutorX, we believe every child has a unique learning pace. Our structured tuition ensures clarity in concepts and confidence in exams.
+              At Adapts Academy, we bridge the gap between theoretical knowledge and industry requirements. 
+              Our programs are designed for engineering students and professionals who want practical exposure 
+              in MEP systems and real project environments.
             </p>
+
             <div className="space-y-4">
               {[
-                "Personalized Attention",
-                "Concept-Driven Learning",
-                "Regular Performance Tracking",
-                "Expert Mentorship"
+                "Hands-on Practical Training",
+                "Live Project Exposure",
+                "Industry Expert Mentorship",
+                "Job-Oriented Curriculum"
               ].map((item, i) => (
                 <div key={i} className="flex items-center gap-3 font-medium text-slate-700">
-                  <CheckCircle2 className="text-blue-500" size={20} /> {item}
+                  <CheckCircle2 className="text-orange-500" size={20} /> {item}
                 </div>
               ))}
             </div>
           </div>
-          <div className="bg-white p-8 rounded-3xl shadow-xl shadow-slate-200/60 border border-slate-100">
+
+          {/* STATS CARD */}
+          <div className="bg-white p-8 rounded-3xl shadow-xl border">
             <div className="grid grid-cols-2 gap-4">
-               <div className="p-6 bg-blue-50 rounded-2xl text-center">
-                  <BookOpen className="mx-auto mb-2 text-blue-600" />
-                  <div className="font-bold text-2xl">100%</div>
-                  <div className="text-xs uppercase text-slate-500">Clarity</div>
-               </div>
-               <div className="p-6 bg-indigo-50 rounded-2xl text-center">
-                  <GraduationCap className="mx-auto mb-2 text-indigo-600" />
-                  <div className="font-bold text-2xl">Class 1-10</div>
-                  <div className="text-xs uppercase text-slate-500">Expertise</div>
-               </div>
-               <div className="p-6 bg-purple-50 rounded-2xl text-center col-span-2">
-                  <Star className="mx-auto mb-2 text-purple-600" />
-                  <div className="font-bold text-xl text-slate-800 italic">"Making Learning Playful & Precise"</div>
-               </div>
+              
+              <div className="p-6 bg-orange-50 rounded-2xl text-center">
+                <Settings className="mx-auto mb-2 text-orange-500" />
+                <div className="font-bold text-2xl">MEP</div>
+                <div className="text-xs text-slate-500">Core Focus</div>
+              </div>
+
+              <div className="p-6 bg-blue-50 rounded-2xl text-center">
+                <Briefcase className="mx-auto mb-2 text-blue-600" />
+                <div className="font-bold text-2xl">100%</div>
+                <div className="text-xs text-slate-500">Practical</div>
+              </div>
+
+              <div className="p-6 bg-green-50 rounded-2xl text-center col-span-2">
+                <Award className="mx-auto mb-2 text-green-600" />
+                <div className="font-bold text-xl italic">
+                  "Build Skills. Build Career."
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        {/* COURSES GRID */}
-        <h3 className="text-3xl font-bold text-center mb-12">Our Specialized Programs</h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* PROGRAMS */}
+        <h3 className="text-3xl font-bold text-center mb-12">
+          Our Training Programs
+        </h3>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           
-          {/* CARDS */}
           {[
             {
-              title: "Foundation Classes",
-              desc: "Building basics for early learners.",
-              list: ["English", "Malayalam", "Mathematics", "Hindi", "Arabic"],
-              color: "border-t-blue-500"
+              title: "HVAC Design",
+              desc: "Heating, ventilation & air conditioning systems",
+              list: ["Load Calculation", "Duct Design", "System Planning"]
             },
             {
-              title: "Elite Programs",
-              desc: "Mastery for advanced students.",
-              list: ["Elite English (Advanced)", "Elite Hindi (Advanced)"],
-              color: "border-t-indigo-500"
+              title: "Electrical Systems",
+              desc: "Design & execution of electrical layouts",
+              list: ["Panel Design", "Wiring Layout", "Load Analysis"]
             },
             {
-              title: "Kerala Syllabus",
-              desc: "State syllabus excellence.",
-              list: ["Classes 5 – 10", "English Medium", "Malayalam Medium"],
-              color: "border-t-emerald-500"
+              title: "Plumbing Systems",
+              desc: "Water supply & drainage design",
+              list: ["Pipe Design", "Drainage Systems", "Water Systems"]
             },
             {
-              title: "CBSE Syllabus",
-              desc: "Full academic support.",
-              list: ["Classes 1 – 10", "All Major Subjects", "Exam Prep"],
-              color: "border-t-orange-500"
+              title: "Fire Fighting Systems",
+              desc: "Safety & protection systems",
+              list: ["Sprinkler Design", "Fire Hydrant Systems"]
+            },
+            {
+              title: "MEP Software",
+              desc: "Design tools training",
+              list: ["AutoCAD", "Revit MEP", "Drafting"]
+            },
+            {
+              title: "Complete MEP Course",
+              desc: "All-in-one career program",
+              list: ["Projects", "Execution", "Career Guidance"]
             }
           ].map((course, index) => (
-            <div key={index} className={`bg-white p-8 rounded-2xl shadow-sm border-t-4 ${course.color} hover:shadow-md transition-shadow group`}>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors">
-                {course.title}
-              </h3>
-              <p className="text-sm text-slate-500 mb-6">{course.desc}</p>
-              <ul className="space-y-3">
+            <div key={index} className="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-orange-500 hover:shadow-md">
+              <h3 className="text-xl font-bold mb-2">{course.title}</h3>
+              <p className="text-sm text-slate-500 mb-4">{course.desc}</p>
+
+              <ul className="space-y-2">
                 {course.list.map((li, i) => (
-                  <li key={i} className="text-sm flex items-center gap-2 text-slate-700">
-                    <span className="w-1.5 h-1.5 rounded-full bg-slate-300"></span>
+                  <li key={i} className="text-sm text-slate-700 flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-slate-400 rounded-full"></span>
                     {li}
                   </li>
                 ))}
@@ -131,30 +143,22 @@ export default function About() {
           ))}
         </div>
 
-        {/* FOOTER / SOCIALS */}
-        <div className="mt-32 pt-12 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-8">
-          <div>
-            <h4 className="text-2xl font-bold text-slate-900">TutorX Academy</h4>
-            <p className="text-slate-500">Transforming potential into performance.</p>
-          </div>
+        {/* FOOTER */}
+        <div className="mt-28 pt-12 border-t flex flex-col md:flex-row justify-between items-center gap-6">
           
-          <div className="flex gap-4">
-            <a 
-              href={instagramUrl} 
-              className="p-3 bg-white rounded-full border border-slate-200 text-pink-600 hover:scale-110 transition-transform shadow-sm"
-              aria-label="Instagram"
-            >
-              <Instagram size={24} />
-            </a>
-            <a 
-              href={whatsappUrl} 
-              className="p-3 bg-white rounded-full border border-slate-200 text-green-600 hover:scale-110 transition-transform shadow-sm"
-              aria-label="WhatsApp"
-            >
-              <MdWhatsapp size={24} />
-            </a>
+          <div>
+            <h4 className="text-2xl font-bold">Adapts Academy</h4>
+            <p className="text-slate-500">Engineering Skills for Real Careers</p>
           </div>
+
+          <a 
+            href={whatsappUrl}
+            className="flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full"
+          >
+            <MdWhatsapp size={20} /> Contact Now
+          </a>
         </div>
+
       </div>
     </div>
   );

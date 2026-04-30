@@ -1,107 +1,98 @@
 {
   "default": {
-    "siteName": "Tutorx Learning Academy",
-    "tagline": "Strong Foundations. Smarter Learning.",
+    "siteName": "Adapts Academy",
+    "tagline": "Engineering Skills that Build Real Careers",
 
-    "primaryColor": "#e3ba00",
+    "primaryColor": "#0f172a",
     "theme": "schoolAcademic",
 
-    "logo": "/logo.png",
-    "students": "300+",
+    "logo": "/Icon.jpg",
+    "students": "500+",
 
     "colors": {
-      "primary": "#2796e1",
-      "accent": "#3b4786"
+      "primary": "#0f172a",
+      "accent": "#f97316"
     },
 
     "hero": {
-      "title": "Personalized Learning for School Students",
-      "subtitle": "Build strong academic foundations with expert guidance in languages and core subjects across Kerala & CBSE syllabi.",
+      "title": "Master MEP Engineering with Industry-Focused Training",
+      "subtitle": "Practical, job-oriented training in Mechanical, Electrical, and Plumbing (MEP) systems designed for real-world engineering careers.",
       "image": "/hero.png",
 
       "bunnyVideoId": "",
-      "poster": "/hero.jpg"
+      "poster": "/hero.png"
     },
 
     "preview": {
-      "badge": "Learning Academy",
-      "title": "Focused tuition for school success",
-      "highlight": "Basics • Advanced • School Syllabus",
-      "description": "Tutorx Learning Academy provides structured and personalized tuition for students from Class 1 to 10. We focus on building strong fundamentals, improving language skills, and helping students excel in both Kerala and CBSE syllabi.",
+      "badge": "MEP Engineering Academy",
+      "title": "Skill Development for Engineers",
+      "highlight": "Practical • Industry Ready • Career Focused",
+      "description": "Adapts Academy offers specialized skill development programs in MEP Engineering. Our courses are designed to bridge the gap between academic learning and industry requirements, helping students and professionals build strong practical knowledge.",
 
       "bunnyVideoId": "",
       "libraryId": "",
-      "poster": "/preview.webp",
+      "poster": "/preview.png",
 
       "videoUrl": "",
 
       "perks": [
-        { "value": "FOUNDATION", "label": "Strong Basics in Core Subjects" },
-        { "value": "GUIDANCE", "label": "Personalized Academic Support" }
+        { "value": "PRACTICAL", "label": "Hands-on Industry Training" },
+        { "value": "CAREER", "label": "Job-Oriented Skill Development" }
       ]
     },
 
     "pricingInfo": {
-      "title": "Program Information",
+      "title": "Program Highlights",
       "items": [
-        "Classes for students from 1 to 10",
-        "Separate focus on basics & advanced learning",
-        "Affordable fee structure",
-        "Small batch learning",
-        "Regular assessments and progress tracking"
+        "Comprehensive MEP training modules",
+        "Real project-based learning",
+        "Affordable course fees",
+        "Flexible learning options",
+        "Certification on completion"
       ]
     },
 
     "schedule": {
-      "title": "Learning Format",
+      "title": "Training Format",
       "details": [
-        "Online / Offline classes (based on availability)",
-        "Flexible batch timings",
-        "Small group sessions",
-        "Regular revision & practice sessions",
-        "Doubt clearing support"
+        "Online & Offline training available",
+        "Weekend & weekday batches",
+        "Flexible timings for working professionals",
+        "Live project exposure",
+        "Doubt clearing sessions"
       ]
     },
 
     "features": [
-      "Strong foundation classes in core subjects",
-      "Advanced English & Hindi programs",
-      "Kerala & CBSE syllabus coverage",
-      "Individual attention in small batches",
-      "Language skill development",
-      "Student-friendly teaching approach"
+      "Mechanical (HVAC) system training",
+      "Electrical system design & execution",
+      "Plumbing & fire fighting systems",
+      "AutoCAD & MEP drafting",
+      "Real-world project exposure",
+      "Career guidance & support"
     ],
 
     "courses": {
       "categories": [
         {
-          "title": "Basic Foundation (Primary)",
+          "title": "MEP Core Programs",
           "items": [
-            "English",
-            "Malayalam",
-            "Mathematics",
-            "Hindi",
-            "Arabic"
+            "HVAC Design & Drafting",
+            "Electrical System Design",
+            "Plumbing System Design",
+            "Fire Fighting System Design"
           ]
         },
         {
-          "title": "Elite Programs",
-          "items": [
-            "Elite English (Advanced English)",
-            "Elite Hindi (Advanced Hindi)"
-          ]
+          "title": "Software Training",
+          "items": ["AutoCAD for MEP", "Revit MEP", "MEP Project Drafting"]
         },
         {
-          "title": "Kerala Syllabus",
+          "title": "Advanced Programs",
           "items": [
-            "Class 5–10 (English Medium)",
-            "Class 5–10 (Malayalam Medium)"
-          ]
-        },
-        {
-          "title": "CBSE Syllabus",
-          "items": [
-            "Class 1–10 All Subjects"
+            "Complete MEP Master Course",
+            "Site Execution Training",
+            "Project Management Basics"
           ]
         }
       ]
@@ -109,40 +100,40 @@
 
     "team": [
       {
-        "name": "Tutorx Faculty",
-        "role": "Experienced Teachers",
-        "qualification": "Subject Experts in School Education",
+        "name": "Adapts Faculty",
+        "role": "MEP Industry Experts",
+        "qualification": "Experienced Engineers & Trainers",
         "image": "/team.jpg"
       }
     ],
 
     "reviews": [
       {
-        "name": "Akhil Raj",
-        "role": "Student",
+        "name": "Rahul Nair",
+        "role": "Engineering Graduate",
         "rating": 5,
-        "text": "Very helpful classes. My basics improved a lot."
+        "text": "Best place to learn MEP practically. Helped me land my first job."
       },
       {
-        "name": "Fathima Noor",
-        "role": "Parent",
+        "name": "Anas P",
+        "role": "Diploma Student",
         "rating": 5,
-        "text": "Teachers give good attention to each student. Highly recommended."
+        "text": "Clear teaching and real project exposure. Highly recommended."
       },
       {
-        "name": "Sreya K",
-        "role": "Student",
+        "name": "Shameer K",
+        "role": "Working Professional",
         "rating": 4,
-        "text": "Good coaching for both school syllabus and languages."
+        "text": "Good for upgrading skills in HVAC and electrical systems."
       }
     ],
 
     "contact": {
-      "email": "tutorxlearningacademy@gmail.com",
-      "phone": "+91 94973 40940",
-      "whatsapp": "9497340940",
+      "email": "prasanth@adaptsengineers.com",
+      "phone": "+91 98959 48492",
+      "whatsapp": "9895948492",
       "address": "Kerala, India",
-      "supportName": "Tutorx Support Team",
+      "supportName": "Adapts Academy Support",
       "image": "/support.jpg"
     }
   }
