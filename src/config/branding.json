@@ -1,22 +1,22 @@
 {
   "default": {
-    "siteName": "Adapts Academy",
-    "tagline": "Engineering Skills that Build Real Careers",
+    "siteName": "PharmaProAcademy",
+    "tagline": "Master Pharmacy. Build a Professional Career",
 
-    "primaryColor": "#0f172a",
+    "primaryColor": "#065f46",
     "theme": "schoolAcademic",
 
-    "logo": "/Icon.jpg",
-    "students": "500+",
+    "logo": "/logo.png",
+    "students": "300+",
 
     "colors": {
-      "primary": "#0f172a",
-      "accent": "#f97316"
+      "primary": "#065f46",
+      "accent": "#22c55e"
     },
 
     "hero": {
-      "title": "Master MEP Engineering with Industry-Focused Training",
-      "subtitle": "Practical, job-oriented training in Mechanical, Electrical, and Plumbing (MEP) systems designed for real-world engineering careers.",
+      "title": "Pharmacy Mastery Course for Real-World Success",
+      "subtitle": "Comprehensive training designed for pharmacy students and professionals to gain practical knowledge, clinical understanding, and career-ready skills.",
       "image": "/hero.png",
 
       "bunnyVideoId": "",
@@ -24,10 +24,10 @@
     },
 
     "preview": {
-      "badge": "MEP Engineering Academy",
-      "title": "Skill Development for Engineers",
-      "highlight": "Practical • Industry Ready • Career Focused",
-      "description": "Adapts Academy offers specialized skill development programs in MEP Engineering. Our courses are designed to bridge the gap between academic learning and industry requirements, helping students and professionals build strong practical knowledge.",
+      "badge": "Pharmacy Training Institute",
+      "title": "Build Strong Pharmaceutical Expertise",
+      "highlight": "Clinical • Practical • Career Focused",
+      "description": "PharmaProAcademy offers structured and practical training programs for pharmacy students. Our Pharmacy Mastery Course bridges the gap between academic learning and real-world pharmaceutical practice, ensuring students are industry-ready.",
 
       "bunnyVideoId": "",
       "libraryId": "",
@@ -36,63 +36,66 @@
       "videoUrl": "",
 
       "perks": [
-        { "value": "PRACTICAL", "label": "Hands-on Industry Training" },
-        { "value": "CAREER", "label": "Job-Oriented Skill Development" }
+        { "value": "CLINICAL", "label": "Real-World Pharmaceutical Knowledge" },
+        { "value": "CAREER", "label": "Job-Oriented Training" }
       ]
     },
 
     "pricingInfo": {
       "title": "Program Highlights",
       "items": [
-        "Comprehensive MEP training modules",
-        "Real project-based learning",
-        "Affordable course fees",
+        "Complete pharmacy mastery curriculum",
+        "Practical & clinical-focused training",
+        "Affordable fee structure",
         "Flexible learning options",
-        "Certification on completion"
+        "Certification after completion"
       ]
     },
 
     "schedule": {
       "title": "Training Format",
       "details": [
-        "Online & Offline training available",
+        "Online & offline classes available",
         "Weekend & weekday batches",
-        "Flexible timings for working professionals",
-        "Live project exposure",
+        "Flexible timings",
+        "Case-based learning",
         "Doubt clearing sessions"
       ]
     },
 
     "features": [
-      "Mechanical (HVAC) system training",
-      "Electrical system design & execution",
-      "Plumbing & fire fighting systems",
-      "AutoCAD & MEP drafting",
-      "Real-world project exposure",
+      "Clinical pharmacy concepts",
+      "Pharmacology & drug understanding",
+      "Prescription analysis & case studies",
+      "Hospital & retail pharmacy insights",
+      "Patient counseling skills",
       "Career guidance & support"
     ],
 
     "courses": {
       "categories": [
         {
-          "title": "MEP Core Programs",
+          "title": "Core Training",
           "items": [
-            "HVAC Design & Drafting",
-            "Electrical System Design",
-            "Plumbing System Design",
-            "Fire Fighting System Design"
+            "Pharmacy Mastery Course",
+            "Clinical Pharmacy Basics",
+            "Pharmacology Essentials"
           ]
         },
         {
-          "title": "Software Training",
-          "items": ["AutoCAD for MEP", "Revit MEP", "MEP Project Drafting"]
+          "title": "Practical Training",
+          "items": [
+            "Prescription Analysis",
+            "Case Study Discussions",
+            "Patient Counseling"
+          ]
         },
         {
-          "title": "Advanced Programs",
+          "title": "Advanced Learning",
           "items": [
-            "Complete MEP Master Course",
-            "Site Execution Training",
-            "Project Management Basics"
+            "Hospital Pharmacy Practice",
+            "Retail Pharmacy Management",
+            "Career Preparation"
           ]
         }
       ]
@@ -100,40 +103,40 @@
 
     "team": [
       {
-        "name": "Adapts Faculty",
-        "role": "MEP Industry Experts",
-        "qualification": "Experienced Engineers & Trainers",
+        "name": "Pharma Experts",
+        "role": "Experienced Pharmacists & Trainers",
+        "qualification": "Industry Professionals & Clinical Experts",
         "image": "/team.jpg"
       }
     ],
 
     "reviews": [
       {
-        "name": "Rahul Nair",
-        "role": "Engineering Graduate",
+        "name": "Neha S",
+        "role": "Pharmacy Student",
         "rating": 5,
-        "text": "Best place to learn MEP practically. Helped me land my first job."
+        "text": "Excellent course for understanding real pharmacy practice."
       },
       {
-        "name": "Anas P",
-        "role": "Diploma Student",
+        "name": "Rahul P",
+        "role": "B.Pharm Graduate",
         "rating": 5,
-        "text": "Clear teaching and real project exposure. Highly recommended."
+        "text": "Helped me gain confidence in clinical knowledge and patient interaction."
       },
       {
-        "name": "Shameer K",
-        "role": "Working Professional",
+        "name": "Akhil R",
+        "role": "Intern",
         "rating": 4,
-        "text": "Good for upgrading skills in HVAC and electrical systems."
+        "text": "Very useful training for hospital and retail pharmacy."
       }
     ],
 
     "contact": {
-      "email": "prasanth@adaptsengineers.com",
-      "phone": "+91 98959 48492",
-      "whatsapp": "9895948492",
+      "email": "Ratheeshalikunnath@gmail.com",
+      "phone": "+91 75598 41714",
+      "whatsapp": "7559841714",
       "address": "Kerala, India",
-      "supportName": "Adapts Academy Support",
+      "supportName": "PharmaProAcademy Support",
       "image": "/support.jpg"
     }
   }
